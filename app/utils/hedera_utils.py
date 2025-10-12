@@ -17,8 +17,8 @@ load_dotenv()
 HEDERA_ACCOUNT_ID = os.getenv("HEDERA_ACCOUNT_ID")
 HEDERA_PRIVATE_KEY = os.getenv("HEDERA_PRIVATE_KEY")
 
-client = Client.for_testnet()
-client.set_operator(AccountId.fromString(HEDERA_ACCOUNT_ID), PrivateKey.fromString(HEDERA_PRIVATE_KEY))
+client = Client.forTestnet()
+client.setOperator(AccountId.fromString(HEDERA_ACCOUNT_ID), PrivateKey.fromString(HEDERA_PRIVATE_KEY))
 
 def generate_credential_hash(credential_data: dict) -> str:
     """
