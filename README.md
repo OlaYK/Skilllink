@@ -1,0 +1,47 @@
+# SkillLink — Decentralized Credential Verification System
+
+SkillLink is a Web3-powered platform that allows users to **verify, store, and share their professional credentials** securely using **Hedera Hashgraph** and **PostgreSQL (Neon DB)**.
+
+This project was built for the **Hedera Africa Hackathon**, showcasing how blockchain can enhance **trust, transparency, and ownership of digital achievements**.
+
+---
+
+## 🚀 Vision
+To empower individuals with self-sovereign control over their professional identity by creating a **tamper-proof, decentralized record** of skills and credentials.
+
+---
+
+## 🧩 Core Features
+- **User Registration**: Create verified profiles with wallet-linked accounts.  
+- **Credential Creation**: Add certificates, training records, or achievements.  
+- **Blockchain Verification**: Store unique verification hashes on **Hedera Testnet**.  
+- **On-Chain Proof**: Retrieve and confirm credentials via Hedera File IDs.  
+- **Cloud Database**: Store structured user data in **Neon (PostgreSQL)**.  
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|------------|-------------|
+| Backend API | FastAPI (Python) |
+| Blockchain | Hedera Hashgraph SDK |
+| Database | Neon DB (PostgreSQL) |
+| ORM | SQLAlchemy |
+| Environment Management | Python-dotenv |
+| Hashing | SHA-256 (via Python `hashlib`) |
+
+---
+
+## 🏗️ Project Structure
+
+---
+
+## ⚙️ Setup Guide
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/<your-username>/SkillLink.git
+cd SkillLink
+
+
