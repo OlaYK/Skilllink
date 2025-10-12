@@ -34,6 +34,22 @@ To empower individuals with self-sovereign control over their professional ident
 ---
 
 ## 🏗️ Project Structure
+skilllink/
+│
+├── app/
+│ ├── main.py
+│ ├── models.py
+│ ├── schemas.py
+│ ├── database.py
+│ ├── routes/
+│ │ ├── users.py
+│ │ ├── credentials.py
+│ │ └── verification.py
+│ └── utils/
+│ └── hedera_utils.py
+│
+├── requirements.txt
+└── README.md
 
 ---
 
@@ -43,5 +59,15 @@ To empower individuals with self-sovereign control over their professional ident
 ```bash
 git clone https://github.com/<your-username>/SkillLink.git
 cd SkillLink
+
+### 2. Create Virtual Environment
+```bash 
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+
+
+
+
+
 
 
