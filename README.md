@@ -5,6 +5,7 @@ SkillLink is a Web3-powered platform that allows users to **verify, store, and s
 This project was built for the **Hedera Africa Hackathon**, showcasing how blockchain can enhance **trust, transparency, and ownership of digital achievements**.
 
 Pitch Deck: https://docs.google.com/presentation/d/1M4JZRe-ZCvU0twHipDZmg2_o_BJ5jWH_LGJRJk7HvEc/edit?usp=sharing 
+
 My HDA certification link: https://certs.hashgraphdev.com/050bc06d-e061-4311-a953-35ea0ee33a3a.pdf
 ---
 
